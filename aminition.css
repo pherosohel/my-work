@@ -1,0 +1,29 @@
+.full{
+    width: 1000px;
+    height: 400px;
+    background-color:rgb(19, 209, 19);
+}
+.first-ball{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    transition: transform 5s ease-in-out .7s;
+}
+.full:hover .first-ball{
+    transform: translate(940px, 340px);
+}
+.second-ball{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: azure;
+    left: 925px;
+    position: absolute;
+    transition: transform 5s ease-in-out .7s;
+    
+}
+.full:hover .second-ball{
+    transform: translate(-.100px,.140px);
+}
