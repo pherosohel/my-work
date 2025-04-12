@@ -1,0 +1,33 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid blueviolet;
+    background-color: blue;
+    margin-top: 20px;
+    transition: background-color 5s ease 2s;
+}
+.box:hover{
+    background-color: black;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: rgb(7, 1, 13);
+    margin-top: 30px;
+    transition: width 5s ease-in-out 2s;
+}
+.box1:hover{
+    width: 600px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(47, 0, 255);
+    background-color: darkorange;
+    margin-top: 30px;
+    transition: background-color 4s cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.box3:hover{
+    background-color: aqua;
+}

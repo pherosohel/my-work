@@ -1,0 +1,44 @@
+.full{
+    width: 1200px;
+    height: 250px;
+    background-color: rgb(237, 249, 251);
+    border: 2px solid rebeccapurple;
+    transition: background-color 3s ease-in-out .6s;
+}
+.full:hover{
+    background-color: lightgreen;
+}
+@keyframes slidin{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        left: 300px;
+        top: 220px;
+    }
+    50%{
+        left: 600px;
+        top: 0;
+    }
+    75%{
+        left: 900px;
+        top: 220px;
+    }
+    100%{
+        left: 1200px;
+        top: 0;
+    }
+}
+.red{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    transition: transform 2s ease-in 0.5s;
+    position: absolute;
+}
+.full:hover .red{
+    animation: slidin 3s ease-in-out 1s infinite alternate;
+}
+

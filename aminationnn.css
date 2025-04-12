@@ -1,0 +1,13 @@
+.full{
+    width: 1000px;
+    height: 400px;
+    background-color:rgb(19, 209, 19);
+}
+.first-ball{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    
+}
